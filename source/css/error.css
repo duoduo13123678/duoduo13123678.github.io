@@ -1,0 +1,19 @@
+p {
+    font-size:20px;
+}
+a {
+    font-size:20px;
+    text-decoration:none;
+    color:blue
+}
+h1 {
+    font-size:35px;
+    color:darkred
+}
+body {
+    background: url("../bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align:center;
+}

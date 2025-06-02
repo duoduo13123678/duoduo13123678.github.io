@@ -1,0 +1,41 @@
+p {
+    font-size:30px;
+}
+a {
+    font-size:30px;
+    text-decoration:none;
+    color:red
+}
+h1 {
+    font-size:45px;
+    color:blue
+}
+div {
+    margin:20px;
+    text-align:center;
+}
+body {
+    background: url("../bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#totimeinfo {
+    color:gray;
+    text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+}
+#totimeinfo_2 {
+    color:gray;
+    text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+}
+#noaudio {
+    font-size:30px;
+    color:blue;
+}
+#tip1 {
+    font-size: 20px;
+}
+#jump {
+    font-size: 21px;
+    color: deepskyblue;
+}
