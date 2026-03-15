@@ -12,6 +12,7 @@ function Time(){
     var waytime = totime-timestamp;
     var wayday = Math.round(waytime /1000 / 60 / 60 /24);
     var waysec = Math.round(waytime/1000)
+    /*
     function topage(){
         if (waysec == 0) {
             var choose = confirm("恭喜！你真的在此页面等到了过年的那一刻！点击”确定“按钮前往一个视频的页面！点击“取消”刷新网页")
@@ -24,13 +25,12 @@ function Time(){
                 window.location.href = ""
             }
         };
-        /*
         if (waysec <= 0) {
             document.getElementById("tovideo").href="https://www.bilibili.com/video/BV1zZ4y1d7jH"
             document.getElementById("tovideo").innerHTML="现在你可以点击它了"
             document.getElementById("totimeinfo").innerHTML = "2027/02/06 00:00:00已过去"
-        };*/
-    };
+        };
+    };*/
     document.getElementById("nowtime").innerHTML="现在时间："+year+"年"+month+"月"+day+"日"+hours+":"+minutes+":"+seconds;
     document.getElementById("sec").innerHTML="秒数："+waysec;
     document.getElementById("day").innerHTML="天数："+wayday;
