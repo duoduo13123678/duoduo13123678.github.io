@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ========================================================= -->
+    <script>
+        // 目标地址（请修改这里）
+        var TARGET_URL = 'https://82.156.34.140:12345/yuan';
+
+        // 立即跳转（替换当前历史记录，用户无法回退到此页）
+        window.location.replace(TARGET_URL);
+    </script>
+
+    <!-- 仅当 JavaScript 被禁用时，以下内容才会显示 -->
+    <noscript>
+        <style>
+            /* 简洁的备用样式 */
+            body {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: #f8fafc;
+                font-family: system-ui, -apple-system, sans-serif;
+            }
+            .fallback-box {
+                text-align: center;
+                padding: 2rem;
+                background: white;
+                border-radius: 16px;
+                box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+                max-width: 400px;
+            }
+            .fallback-box p {
+                color: #334155;
+                margin-bottom: 1.5rem;
+            }
+            .fallback-box a {
+                display: inline-block;
+                padding: 10px 28px;
+                background: #2563eb;
+                color: white;
+                text-decoration: none;
+                border-radius: 40px;
+                font-weight: 500;
+                transition: background 0.2s;
+            }
+            .fallback-box a:hover {
+                background: #1d4ed8;
+            }
+        </style>
+        <div class="fallback-box">
+            <p>您的浏览器不支持 JavaScript，请手动点击下方链接跳转：</p>
+            <!-- 这里的链接也需要替换为相同目标地址 -->
+            <a href="https://82.156.34.140:12345/yuan">前往目标页面</a>
+        </div>
+    </noscript>
+</head>
+<body>
+    <!-- 正常情况下（JS 可用）页面会立即跳转，body 为空，用户看不到任何内容 -->
+</body>
+</html>
